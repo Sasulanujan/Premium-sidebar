@@ -32,11 +32,11 @@ Built using **pure HTML, CSS, and JavaScript**, focusing on **clean UI, performa
 ## 🖼️ UI Preview
 
 <p align="center">
-  <img src="https://github.com/Sasulanujan/Premium-sidebar/blob/main/5225e88d-e745-4af0-b486-1d602d576305.png?raw=true" width="850">
+  <img src="https://github.com/Sasulanujan/Premium-sidebar/blob/main/original%20sidebar.png?raw=true" width="850">
 </p>
 
 <p align="center">
-  <img src="https://github.com/Sasulanujan/Premium-sidebar/blob/main/ce9dc2cd-f0e9-45c1-95d3-5f9409b31e3a.png?raw=true" width="850">
+  <img src="https://github.com/Sasulanujan/Premium-sidebar/blob/main/sidebar%20after%20updated.png?raw=true" width="850">
 </p>
 
 ---
