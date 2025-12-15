@@ -91,12 +91,15 @@ Premium-sidebar/
 ```
 ⚙️ Installation
 1️⃣ Clone Repository
+```
 git clone https://github.com/Sasulanujan/Premium-sidebar.git
+```
 
 2️⃣ Open Project
+```
 cd Premium-sidebar
 open index.html
-
+```
 🧩 Example Categories
 
 - JavaScript
@@ -109,12 +112,13 @@ open index.html
 AI / Coding
 
 📊 Sidebar Workflow
+```
 flowchart LR
 A[Sidebar Menu] --> B[Select Category]
 B --> C[Filter Posts]
 C --> D[Show Cards]
 D --> E[Open Post]
-
+```
 🚀 Future Enhancements
 
 🌓 Auto light / dark mode
