@@ -88,8 +88,8 @@ Premium-sidebar/
 │   ├── images/
 │   └── icons/
 └── README.md
-
-⚙️ Installation
+--
+## ⚙️ Installation
 1️⃣ Clone Repository
 git clone https://github.com/Sasulanujan/Premium-sidebar.git
 
