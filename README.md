@@ -99,17 +99,12 @@ open index.html
 
 🧩 Example Categories
 
-JavaScript
-
-Python
-
-HTML
-
-CSS
-
-React
-
-Blogger
+- JavaScript
+- Python
+- HTML
+- CSS
+- React
+- Blogger
 
 AI / Coding
 
