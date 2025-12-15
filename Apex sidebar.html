@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Coding - Categories Sidebar (Full)</title>
 <style>
+
+    .mobile-toggle {
+  display: none;
+}
+/* related resource: Apex sidebar.html:135:1 */
+.controls .btn { /* the element was button.btn */
+  color: rgb(215 30 55);
+}
 /* Combined styles (All -> Coding replacements applied) */
 :root{
   --accent:#ff7b00;
@@ -200,7 +208,7 @@ body { margin:0; font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif; back
 </head>
 <body>
 <!-- MOBILE BUTTON -->
-<div class="mobile-toggle" onclick="toggleSidebar()">VIEW<br>CATEGORIES</div>
+<div class="mobile-toggle" onclick="toggleSidebar()">&nbsp;&nbsp;MENU</div>
 
 <div class="wrapper">
 
@@ -218,20 +226,33 @@ body { margin:0; font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif; back
       <button class="toggle-btn" id="sidebarClear">Clear</button>
     </div>
 
-    <!-- MAIN CATEGORY BUTTON -->
-    <button class="cat-main" data-cat="Coding">
-      <span>Programming</span>
-      <span class="caret">▼</span>
-    </button>
+    <!-- MAIN + SUB -->
+    <button class="cat-main" data-main="Breakfast" onclick="openMainAndLoad(event)">Category 1 <span class="caret">▾</span></button>
+    <div class="sub-wrap" data-parent="Breakfast">
+      <button class="sub-btn" data-label="Pancakes" onclick="loadLabel('Pancakes', this)">sub category 1</button>
+      <button class="sub-btn" data-label="Omelette" onclick="loadLabel('Omelette', this)">sub category 2</button>
+      <button class="sub-btn" data-label="Smoothie" onclick="loadLabel('Smoothie', this)">sub category 3</button>
+    </div>
 
-    <!-- SUBCATEGORIES -->
-    <div class="sub-wrap">
-      <button class="sub-btn" data-sub="JavaScript">JavaScript</button>
-      <button class="sub-btn" data-sub="Python">Python</button>
-      <button class="sub-btn" data-sub="HTML">HTML</button>
-      <button class="sub-btn" data-sub="CSS">CSS</button>
-      <button class="sub-btn" data-sub="React">React</button>
-      <button class="sub-btn" data-sub="Blogger">Blogger</button>
+    <button class="cat-main" data-main="Drinks" onclick="openMainAndLoad(event)">Category 2 <span class="caret">▾</span></button>
+    <div class="sub-wrap" data-parent="Drinks">
+      <button class="sub-btn" data-label="Coffee" onclick="loadLabel('Coffee', this)">sub category 1</button>
+      <button class="sub-btn" data-label="Mocktails" onclick="loadLabel('Mocktails', this)">sub category 2</button>
+      <button class="sub-btn" data-label="Juices" onclick="loadLabel('Juices', this)">sub category 3</button>
+    </div>
+
+    <button class="cat-main" data-main="Dinner" onclick="openMainAndLoad(event)">Category 3 <span class="caret">▾</span></button>
+    <div class="sub-wrap" data-parent="Dinner">
+      <button class="sub-btn" data-label="Rice" onclick="loadLabel('Rice', this)">sub category 1</button>
+      <button class="sub-btn" data-label="Curry" onclick="loadLabel('Curry', this)">sub category 2</button>
+      <button class="sub-btn" data-label="Noodles" onclick="loadLabel('Noodles', this)">sub category 3</button>
+    </div>
+
+    <button class="cat-main" data-main="Dessert" onclick="openMainAndLoad(event)">Category 4 <span class="caret">▾</span></button>
+    <div class="sub-wrap" data-parent="Dessert">
+      <button class="sub-btn" data-label="Cakes" onclick="loadLabel('Cakes', this)">sub category 1</button>
+      <button class="sub-btn" data-label="Muffins" onclick="loadLabel('Muffins', this)">sub category 2</button>
+      <button class="sub-btn" data-label="Cookies" onclick="loadLabel('Cookies', this)">sub category 3</button>
     </div>
 
   </aside>
