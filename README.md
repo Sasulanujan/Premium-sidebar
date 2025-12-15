@@ -32,7 +32,7 @@ Built using **pure HTML, CSS, and JavaScript**, focusing on **clean UI, performa
 ## 🖼️ UI Preview
 
 <p align="center">
-  <img src="[./assets/preview-1.png](https://chatgpt.com/backend-api/estuary/content?id=file_00000000295072089d4e7f4ae50a1de4&ts=490492&p=fs&cid=1&sig=dc2bf9295645e0dc07a0b57acf28ee07eacc8a6bbabb0f0e03dece8d9ca88c19&v=0)" width="850">
+  <img src="https://github.com/Sasulanujan/Premium-sidebar/blob/main/5225e88d-e745-4af0-b486-1d602d576305.png?raw=true" width="850">
 </p>
 
 <p align="center">
