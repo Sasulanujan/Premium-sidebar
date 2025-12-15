@@ -36,7 +36,7 @@ Built using **pure HTML, CSS, and JavaScript**, focusing on **clean UI, performa
 </p>
 
 <p align="center">
-  <img src="[./assets/preview-2.png](https://github.com/Sasulanujan/Premium-sidebar/blob/main/ce9dc2cd-f0e9-45c1-95d3-5f9409b31e3a.png?raw=true)" width="850">
+  <img src="https://github.com/Sasulanujan/Premium-sidebar/blob/main/ce9dc2cd-f0e9-45c1-95d3-5f9409b31e3a.png?raw=true" width="850">
 </p>
 
 ---
